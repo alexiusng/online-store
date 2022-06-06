@@ -12,9 +12,9 @@ import com.onlinestore.model.Product;
 
 
 public class ProductDAO {
-	private String jdbcURL = "jdbc:mysql://localhost:3306/onlinestore?useSSL=false";
-	private String jdbcProductname = "root";
-	private String jdbcPassword = "root";
+	private String jdbcURL = "jdbc:mysql://rtklpr4rfuasz55s:f79lvc8c7gofjjvy@j8oay8teq9xaycnm.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/xs6lec5abo8mjgoz";
+	private String jdbcProductname = "rtklpr4rfuasz55s";
+	private String jdbcPassword = "f79lvc8c7gofjjvy";
 
 	private static final String INSERT_PRODUCT_SQL = "INSERT INTO products" + "  (name, price) VALUES " + " (?, ?);";
 	private static final String SELECT_PRODUCT_BY_ID = "SELECT * FROM products where id =?";
